@@ -37,6 +37,7 @@ png(filename = "plot1.png")
 
 par(mfrow = c(1,1))
 hist(as.numeric(hpcdata$Global_active_power), col = "red", 
-     ylab = "Frequency", xlab = "", main = "Global Active Power")
+     ylab = "Frequency", xlab = "Global Active Power (kilowatts)", 
+     main = "Global Active Power")
 
 dev.off()
